@@ -1,0 +1,468 @@
+html,
+body {
+	height: 100%;
+	font-family: 'Roboto', sans-serif;
+	-webkit-font-smoothing: antialiased;
+	font-smoothing: antialiased;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	margin: 0;
+	font-weight: 500;
+	color: #FF0000;
+}
+
+h1 {
+	font-size: 70px;
+}
+
+h2 {
+	font-size: 36px;
+}
+
+h3 {
+	font-size: 30px;
+}
+
+h4 {
+	font-size: 24px;
+}
+
+h5 {
+	font-size: 20px;
+}
+
+h6 {
+	font-size: 16px;
+}
+
+p {
+	font-size: 14px;
+	color: #878787;
+	line-height: 2;
+}
+
+    img {
+	max-width: 100%;
+}
+
+input:focus,
+select:focus,
+button:focus,
+textarea:focus {
+	outline: none;
+}
+
+a:hover,
+a:focus {
+	text-decoration: none;
+	outline: none;
+}
+
+ul,
+ol {
+	padding: 0;
+	margin: 0;
+}
+
+.section-title {
+	text-align: center;
+	margin-bottom: 75px;
+        color: #00FF00;
+}
+
+.section-title h2 {
+	padding-top: 10px;
+	font-size: 36px;
+}
+
+.set-bg {
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: top center;
+}
+
+.spad {
+	padding-top: 97px;
+	padding-bottom: 97px;
+}
+
+.text-white h1,
+.text-white h2,
+.text-white h3,
+.text-white h4,
+.text-white h5,
+.text-white h6,
+.text-white p,
+.text-white span,
+.text-white li,
+.text-white a {
+	color: #fff;
+}
+
+.rating i {
+	color: #fbb710;
+}
+
+.rating .is-fade {
+	color: #e0e3e4;
+}
+
+.header-section {
+	background: #131313;
+	clear: both;
+	overflow: hidden;
+	padding: 18px 0;
+}
+
+.site-logo {
+	display: inline-block;
+	float: left;
+    max-height: 100px;
+    max-width: 100px;
+}
+
+.user-panel {
+	float: right;
+	font-weight: 500;
+	background: #ffb320;
+	padding: 8px 28px;
+	border-radius: 30px;
+}
+
+.user-panel a {
+	font-size: 14px;
+	color: #131313;
+}
+
+.main-menu {
+	float: right;
+	margin-right: 170px;
+}
+
+.main-menu ul {
+	list-style: none;
+}
+
+.main-menu ul li {
+	display: inline;
+}
+
+.main-menu ul li a {
+	display: inline-block;
+	font-size: 16px;
+	color: #fff;
+	margin-left: 35px;
+	font-weight: 500;
+	padding: 10px 5px;
+}
+
+.main-menu ul li a:hover {
+	color: #ffb320;
+}
+
+.header-btn {
+	float: right;
+	margin-right: 0;
+}
+
+.nav-switch {
+	display: none;
+}
+
+
+.recent-game-section {
+	background-color: #eef2f6;
+	border-top: 1px solid #d6dee7;
+	border-bottom: 1px solid #d6dee7;
+}
+
+.recent-game-item .rgi-thumb {
+	height: 204px;
+	padding: 25px 28px;
+}
+
+.recent-game-item .rgi-content {
+	padding: 34px 22px 20px;
+	background: #fff;
+	border: 1px solid #d6dee7;
+	border-top: none;
+	position: relative;
+    text-align: center;
+}
+
+.recent-game-item .rgi-content h5 {
+	margin-bottom: 20px;
+	line-height: 1.5;
+}
+
+.recent-game-item .rgi-content .comment {
+	font-size: 12px;
+	color: #737373;
+}
+
+.recent-game-item .rgi-extra {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	width: 70px;
+}
+
+.recent-game-item .rgi-extra .rgi-star,
+.recent-game-item .rgi-extra .rgi-heart {
+	height: 35px;
+	width: 35px;
+	float: left;
+	display: block;
+	padding: 6px 8px 0;
+}
+
+.recent-game-item .rgi-extra .rgi-star {
+	background: #ffb320;
+}
+
+.recent-game-item .rgi-extra .rgi-heart {
+	background: #ff205f;
+}
+
+.review-section {
+	background-position: right top;
+}
+
+.review-item .review-cover {
+	position: inherit;
+	margin-bottom: 30px;
+	height: 345px;
+}
+
+.review-item .review-cover .score.green {
+	background: #4eae60;
+}
+
+.review-item .review-text {
+	text-align: center;
+}
+
+.review-item .review-text h5 {
+	margin-bottom: 20px;
+}
+
+.review-item .review-text p {
+	margin-bottom: 0;
+}
+
+.review-item .rating {
+	margin-bottom: 20px;
+}
+
+.review-item .rating i {
+	font-size: 12px;
+}
+
+
+.footer-top-section {
+	background-image: url("../img/pattern.png");
+	background-repeat: repeat;
+	padding: 160px 0;
+}
+
+.footer-top-section .container {
+	position: relative;
+        color: #00FF00;
+}
+
+.footer-top-bg {
+	position: absolute;
+	left: -30px;
+	bottom: -85px;
+	z-index: 2;
+}
+
+.footer-logo img {
+	margin-bottom: 35px;
+}
+
+
+.footer-section {
+	padding: 18px 0 16px;
+	overflow: hidden;
+	background: #252525;
+}
+
+.footer-menu {
+	list-style: none;
+	float: right;
+}
+
+.footer-menu li {
+	display: inline;
+}
+
+.footer-menu li a {
+	display: inline-block;
+	font-size: 14px;
+	font-weight: 500;
+	color: #aeaeae;
+	margin-left: 30px;
+}
+
+
+.page-info-section {
+	height: 499px;
+	position: relative;
+}
+
+.page-info-section .pi-content {
+	position: absolute;
+	width: 100%;
+	bottom: 65px;
+	left: 0;
+	z-index: 2;
+}
+
+.page-info-section .pi-content h2 {
+	font-size: 60px;
+	margin-bottom: 25px;
+	font-weight: 400;
+}
+
+.site-pagination {
+	padding-top: 50px;
+}
+
+.site-pagination a,
+.site-pagination span {
+	width: 33px;
+	height: 33px;
+	font-size: 14px;
+	font-weight: 500;
+	padding-top: 7px;
+	text-align: center;
+	display: inline-block;
+	border-radius: 50%;
+	color: #131313;
+	margin-right: 10px;
+}
+
+.site-pagination .active {
+	background: #ffb320;
+}
+
+.site-pagination.sp-style-2 a,
+.site-pagination.sp-style-2 span {
+	background: #e5e5e5;
+}
+
+.site-pagination.sp-style-2 .active {
+	background: #ffb320;
+}
+
+
+
+.contact-info-list {
+	padding-top: 55px;
+	padding-bottom: 20px;
+	list-style: none;
+}
+
+.contact-info-list li {
+	margin-bottom: 30px;
+}
+
+.contact-info-list .cf-left {
+	width: 95px;
+	float: left;
+	font-size: 16px;
+	font-weight: 700;
+	color: #ffb320;
+}
+
+.contact-info-list .cf-right {
+	color: #878787;
+	font-size: 15px;
+	padding-left: 100px;
+}
+
+
+@media (min-width: 1200px) {
+	.container {
+		max-width: 1176px;
+        align-content: center;
+        align-self: center;
+	}
+}
+
+/* Medium screen : 992px. */
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+	.main-menu {
+		margin-right: 90px;
+	}
+	.hero-slider .owl-dots {
+		max-width: 930px;
+	}
+	.review-section {
+		background-position: right 10% top;
+	}
+	.review-item .review-cover {
+		height: 280px;
+	}
+	.latest-blog .lb-item .lb-thumb {
+		width: 55px;
+		height: 55px;
+	}
+	.latest-blog .lb-item .lb-content {
+		padding-left: 67px;
+	}
+	.top-comment .tc-item .tc-content {
+		padding-left: 95px;
+	}
+	.footer-top-bg {
+		max-width: 370px;
+	}
+	.page-info-section .pi-content h2 {
+		font-size: 50px;
+	}
+}
+
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	.site-logo {
+		max-width: 130px;
+	}
+	.main-menu {
+		margin-right: 25px;
+	}
+	.main-menu ul li a {
+		margin-left: 15px;
+	}
+	.user-panel {
+		padding: 8px 15px;
+	}
+	.hero-slider .hs-text h2 {
+		font-size: 50px;
+	}
+	.hero-slider .owl-dots {
+		max-width: 690px;
+	}
+	.recent-game-item {
+		margin-bottom: 42px;
+	}
+	.review-section {
+		background-position: left top;
+	}
+	.review-item {
+		margin-bottom: 63px;
+	}
+	.footer-logo {
+		margin-bottom: 50px;
+	}
+	.footer-top-bg {
+		display: none;
+	}
+}

@@ -1,0 +1,35 @@
+.feature-item {
+	height: 415px;
+	position: relative;
+}
+
+.feature-item:after {
+	position: absolute;
+	content: "";
+	width: 100%;
+	height: 100%;
+	left: 0;
+	top: 0;
+	background: #000;
+	opacity: .65;
+}
+
+.feature-item .cata {
+	position: relative;
+	margin-top: 28px;
+	margin-left: 29px;
+	z-index: 3;
+}
+
+.feature-item .fi-content {
+	position: absolute;
+	width: 100%;
+	left: 0;
+	bottom: 0;
+	padding: 0 26px 24px;
+	z-index: 2;
+}
+
+.feature-item .fi-content h5 {
+	margin-bottom: 18px;
+}

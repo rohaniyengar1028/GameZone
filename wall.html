@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>WALLPAPERS</title>
+	<style>
+		button {
+			background-color: #555555; /* Black */
+			box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #f44336; /* Red */
+  color: black;
+}
+
+	</style>
+<meta charset="UTF-8">
+	<meta name="keywords" content="warrior, game, creative, html">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- Favicon -->   
+	<link href="img/img/favicon.ico" rel="shortcut icon"/>
+
+	<!-- Google Fonts -->
+	<link href="img/https://fonts.googleapis.com/css?family=Roboto:400,400i,500,500i,700,700i" rel="stylesheet">
+
+	<!-- Stylesheets -->
+	<link rel="stylesheet" href="css/bootstrap.min.css"/>
+	<link rel="stylesheet" href="css/font-awesome.min.css"/>
+	<link rel="stylesheet" href="css/style.css"/>
+
+</head>
+<body>
+	<header class="header-section">
+		<div class="container">
+			<!-- logo -->
+			<a class="site-logo" href="index.html">
+				<img src="img/MainLogo.JPG" alt="">
+			</a>
+			<div class="user-panel">
+				<a href="login.html">Login</a>  /  <a href="login.html">Register</a>
+			</div>
+			<!-- responsive -->
+			<div class="nav-switch">
+				<i class="fa fa-bars"></i>
+			</div>
+			<!-- site menu -->
+			<nav class="main-menu">
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href = "index.html#tuts">Tutorials</a>     
+					<li><a href="#">Wallpapers</a></li>
+					<li><a href="#">Leaderboards</a></li>
+					<li><a href="contact.html">Contact</a></li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+
+	<section class="page-info-section set-bg" data-setbg="img/page-top-bg/5.jpg">
+		<div class="pi-content">
+			<div class="container">
+				<div class="row">
+					<div class="col-xl-5 col-lg-6 text-white">
+						<h2>Wallpapers</h2>
+						<p>Click on the link below the wallpapers to download them!</p>
+						
+						<p>Press the button to view the wallpapers of the desired game</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	
+
+<section class="page-section spad contact-page">	
+	<align = "center"><table width="1200" border="0" cellpadding="5" height="250">
+
+<tr>
+
+<td align="center" valign="center">
+<img src="img/snakeimg.png" alt="description here" height="200" width="300" /><br>
+<a href="img/snakeimg.png" download="game.png" target="_blank">Download</a>
+<br />
+
+</td>
+
+<td align="center" valign="center">
+<img src="img/snakeimg2.jpg" alt="description here" height="200" width="300" /><br>
+<a href="img/snakeimg2.jpg" download="game.jpg" target="_blank">Download</a>
+<br />
+
+</td>
+
+<td align="center" valign="center">
+<img src="img/snakeimg2.gif" alt="description here" height="200" width="300" /><br>
+<a href="img/snakeimg2.gif" download="game.gif" target="_blank">Download</a>
+<br />
+
+</td>
+
+<td align="center" valign="center">
+<img src="img/snakeimg2.png" alt="description here" height="200" width="300"/><br>
+<a href="img/snakeimg2.png" download="game.png" target="_blank">Download</a>
+<br />
+
+</td>
+
+</tr>
+
+        </table></align>
+</section>
+
+<button id="g1" onclick="fg1()" value="Game One">SNAKE</button>
+<button id="g2" onclick="fg2()" value="Game Two">PINBALL</button>
+<button id="g3" onclick="fg3()" value="Game Three">TIC TAC TOE</button>
+<br>
+<br>
+<br>
+
+	
+	<!-- Footer section -->
+	<footer class="footer-section">
+		<div class="container">
+			<ul class="footer-menu">
+				<li><a href="index.html">Home</a></li>
+					<li><a href = "#tuts">Tutorials</a>     
+					<li><a href="index.html#tuts">Wallpapers</a></li>
+					<li><a href="#">Leaderboards</a></li>
+					<li><a href="contact.html">Contact</a></li>
+			</ul>
+			
+</p>
+		</div>
+	</footer>
+	<!-- Footer section end -->
+
+
+	<!--====== Javascripts & Jquery ======-->
+	<script src="js/jquery-3.2.1.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/main.js"></script>
+
+<script>
+	function fg1()
+	{
+		document.getElementsByTagName("img")[1].src="img/snakeimg.png";
+		document.getElementsByTagName("img")[2].src="img/snakeimg2.jpg";
+		document.getElementsByTagName("img")[3].src="img/snakeimg2.gif";
+		document.getElementsByTagName("img")[4].src="img/snakeimg2.png";
+		document.getElementsByTagName("a")[8].href="img/snakeimg.png";
+		document.getElementsByTagName("a")[9].href="img/snakeimg2.jpg";
+		document.getElementsByTagName("a")[10].href="img/snakeimg2.gif";
+		document.getElementsByTagName("a")[11].href="img/snakeimg2.png";
+
+	}
+
+	function fg2()
+	{
+		document.getElementsByTagName("img")[1].src="img/pinball.jpg";
+		document.getElementsByTagName("img")[2].src="img/pinballimg2.jpg";
+		document.getElementsByTagName("img")[3].src="img/pin.jpg";
+		document.getElementsByTagName("img")[4].src="img/pin2.jpg";
+		document.getElementsByTagName("a")[8].href="img/pinball.jpg";
+		document.getElementsByTagName("a")[9].href="img/pinballimg2.jpg";
+		document.getElementsByTagName("a")[10].href="img/pin.jpg";
+		document.getElementsByTagName("a")[11].href="img/pin2.jpg";
+
+	}
+
+	function fg3()
+	{
+		document.getElementsByTagName("img")[1].src="img/tictacimg2.jpg";
+		document.getElementsByTagName("img")[2].src="img/tictacimg.png";
+		document.getElementsByTagName("img")[3].src="img/tic.jpeg";
+		document.getElementsByTagName("img")[4].src="img/tic2.png";
+		document.getElementsByTagName("a")[8].href="img/tictacimg2.jpg";
+		document.getElementsByTagName("a")[9].href="img/tictacimg.png";
+		document.getElementsByTagName("a")[10].href="img/tic.jpeg";
+		document.getElementsByTagName("a")[11].href="img/tic2.png";
+
+	}
+</script>
+</body>
+</html>
